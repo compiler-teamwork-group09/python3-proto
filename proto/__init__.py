@@ -4,4 +4,6 @@
 # :time: 12/22/17-3:36 PM
 # :package: proto
 
-from .proto import proto
+from .proto import Method, ClassMethod, StaticMethod
+from .proto import Proto
+from .proto import proto, combine, is_instance
