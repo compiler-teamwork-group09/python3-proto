@@ -177,4 +177,4 @@ Where, args and kwargs should be passed to \__init__ and the passed to \__proto_
 
 ## 4.4. Classmethod and Staticmethod
 There are three classes, Method, Classmethod, Staticmethod, where the last two are subclasses of Method, could be used as decorator to create method. Those can be used when you use default 'with' statement to add attrbutes.
-Meanwhile, each instance has properties like
+Meanwhile, each instance has properties: init, enter, exit, getitem, setitem, method, class_method, static_method. Those are decorators that help to treat a call as a method of a certain use.
