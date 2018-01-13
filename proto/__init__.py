@@ -6,4 +6,5 @@
 
 from .proto import Method, ClassMethod, StaticMethod
 from .proto import Proto
-from .proto import proto, combine, is_instance
+from .proto import proto, combine
+from .proto import is_instance, is_subclass
